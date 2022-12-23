@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.about{
+    display: flex;
+    padding: 3rem;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.qichen{
+    color: red;
+    font-size: 1.5rem;
+}
+.taste{
+    font-size: 3rem;
+    width: 70%;
+}
+.info{
+    font-size: 1.5rem;
+    color: gray;
+    width: 70%;
+}
+.learn{
+    background-color: orangered;
+    color: white;
+    padding: 1rem 1rem 2.5rem 1rem;
+    width: 20%;
+}
+.items{
+    display: flex;
+    gap: 2rem;
+}

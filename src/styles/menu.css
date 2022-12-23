@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 300vh;
+}
+.foods{
+    background-image: linear-gradient(to top,orangered,orangered) ,url(https://demo.webtend.net/html/qichen/assets/images/bg/category-bg-1.jpg);
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foods p{
+    font-size: 1.5rem;
+    color: white;
+}
+.best{
+    font-size: 4rem;
+    color: white;
+}
+.item{
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    width: 25rem;
+}
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+.special{
+    width: 60%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 1rem;
+}
